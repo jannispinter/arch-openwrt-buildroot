@@ -19,7 +19,7 @@ cd arch-openwrt-buildroot
 docker build -t="arch-openwrt-buildroot:trunk" .
 ```
 
-The dot at the end indicates that =docker build= will use the current directory to find the `Dockerfile`.
+The dot at the end indicates that `docker build` will use the current directory to find the `Dockerfile`.
 
 ## Usage
 ### 1. Run the docker image
