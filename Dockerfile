@@ -3,7 +3,7 @@ FROM base/archlinux
 
 MAINTAINER Jannis Pinter <jannis@pinterjann.is>
 
-RUN pacman -Sy --noconfirm --needed subversion asciidoc bash bc binutils fastjar \
+RUN pacman -Syu --noconfirm --needed subversion asciidoc bash bc binutils fastjar \
 	flex git gcc util-linux intltool make cdrkit openssl patch \
 	perl-extutils-makemaker rsync sdcc unzip wget gettext libxslt \
 	boost bin86 sharutils b43-fwcutter sudo libunistring &&\
