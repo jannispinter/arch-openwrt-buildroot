@@ -10,7 +10,7 @@ pacman -Su --noconfirm --needed subversion asciidoc bash bc binutils fastjar \
 	boost bin86 sharutils b43-fwcutter sudo libunistring &&\
 useradd -m openwrt &&\
 echo 'openwrt ALL=NOPASSWD: ALL' > /etc/sudoers.d/openwrt &&\
-sudo -iu openwrt git clone git://git.openwrt.org/openwrt.git &&\
+sudo -iu openwrt git clone git://git.openwrt.org/12.09/openwrt.git &&\
 sudo -iu openwrt openwrt/scripts/feeds update
 
 USER openwrt
