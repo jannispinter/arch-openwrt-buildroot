@@ -1,5 +1,6 @@
 Arch Linux based OpenWrt Buildroot
 ==================================
+[![Docker Build Status](http://hubstatus.container42.com/jannispinter/arch-openwrt-buildroot)](https://registry.hub.docker.com/u/jannispinter/arch-openwrt-buildroot)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]()
 
 This is an Arch Linux based docker container for the OpenWrt buildroot.
